@@ -17,5 +17,10 @@ public class FunctionMain {
 
         System.out.println("meteo is F " + readFahrenheit.apply(meteo));
 
+        readFahrenheit = celsiusToFahrenheit.compose(readCelsius);
+
+        System.out.println("meteo is F " + readFahrenheit.apply(meteo));
+
+
     }
 }
