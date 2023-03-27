@@ -24,4 +24,8 @@ public interface Function<T, R> {
             return this.apply(t);
         };
     }
+
+    static <T> Function<T, T> identity(){
+        return t -> t;
+    }
 }

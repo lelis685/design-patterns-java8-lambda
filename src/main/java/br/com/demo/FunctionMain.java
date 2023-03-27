@@ -22,5 +22,8 @@ public class FunctionMain {
         System.out.println("meteo is F " + readFahrenheit.apply(meteo));
 
 
+
+
+
     }
 }
